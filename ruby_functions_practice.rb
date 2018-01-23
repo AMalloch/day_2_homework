@@ -57,7 +57,7 @@ def volume_cube(length)
 end
 
 def volume_sphere(radius)
-  value = (4.0/3.0)*(3.14)*(radius**3)
+  value = (4.0/3.0)*(Math::PI)*(radius**3)
   return value.round
 end
 
